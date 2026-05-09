@@ -47,7 +47,6 @@ ls
 ```
 
 8. 
-
 Do you see the "multi_agent-*version you have*.py
 then there is a problem with the Terminal, if you don't see the file then it isn't downloaded, download it by going to "https://github.com/M-lanGH/Multi-AI-Agent-Tool"
 
