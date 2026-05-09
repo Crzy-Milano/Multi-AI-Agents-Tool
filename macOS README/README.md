@@ -80,7 +80,7 @@ python3 multi_agent-*version you have downloaded*.py
 - To use the online models (Groq, Gemini, etc.) you need API keys. 
 - The ones below are **free**:
 
-### | Provider | Free | Link |
+### Providers
 
 - **Groq** | ✓ Yes | [console.groq.com](https://console.groq.com)
 - **Gemini** | ✓ Yes | [aistudio.google.com](https://aistudio.google.com)
