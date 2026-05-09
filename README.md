@@ -1,2 +1,3 @@
-# Multi-AI-Agents-Tool-MAAT-
-Let different AI models work together!
+# Multi AI Agents Tool
+## Let different AI models work together!
+###### !This is the macOS guide!
