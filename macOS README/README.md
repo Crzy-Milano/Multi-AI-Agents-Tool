@@ -438,7 +438,9 @@ ollama pull pixtral                   # Mistral vision
 
 ## Requirements
 
-- macOS 20+
+- macOS 12+ (Monterey)
 - Bash 3.2+
+- Python 3.8+
+- pip3
 
 ---
