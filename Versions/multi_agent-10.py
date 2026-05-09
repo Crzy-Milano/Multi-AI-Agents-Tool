@@ -399,7 +399,7 @@ def get_models_for_provider(provider):
     else:
         return get_remote_models(provider)
 
-# ─── Agent-rollen ─────────────────────────────────────────────────────────────
+# ─── Agents ───────────────────────────────────────────────────────────────────
 
 CHAT_ROLES = [
     {"name": "Analist",  "system": "You are an analytical AI. Analyze the question thoroughly and provide a clear, structured answer. Be concise (max 4 sentences)."},
@@ -414,7 +414,7 @@ CODE_ROLES = [
 ORCH_SYSTEM_CHAT = "You are an orchestrator AI. Combine the agents' answers into one clear, complete response. Remove duplicates, keep the best of each agent."
 ORCH_SYSTEM_CODE = "You are an orchestrator AI. Combine the two code implementations and the review into one recommended final code with a short explanation."
 
-# ─── Kleuren ──────────────────────────────────────────────────────────────────
+# ─── Colors ──────────────────────────────────────────────────────────────────
 
 R="\033[0m"; BOLD="\033[1m"; CYAN="\033[96m"; GREEN="\033[92m"
 YELLOW="\033[93m"; MAGENTA="\033[95m"; GRAY="\033[90m"; RED="\033[91m"
@@ -460,7 +460,7 @@ def provider_available(provider):
         return True  # altijd beschikbaar als Ollama/LM Studio draait
     return get_client(provider) is not None
 
-# ─── API-aanroep ──────────────────────────────────────────────────────────────
+# ─── API ──────────────────────────────────────────────────────────────
 
 def call_model(provider, model, system, user_msg, max_tokens=1024):
     client = get_client(provider)
@@ -488,7 +488,7 @@ def run_parallel(roles, agent_cfgs, user_msg):
             results[idx] = (name, result, err)
     return results
 
-# ─── Weergave ─────────────────────────────────────────────────────────────────
+# ─── Show / Output ─────────────────────────────────────────────────────────────────
 
 def print_agent(index, name, agent_cfg, result, err):
     col = AGENT_COLORS[index % len(AGENT_COLORS)]
@@ -566,7 +566,7 @@ def print_providers():
             print(f"│  {'':12}  → export {cfg['env_key']}=\"...\"  ({cfg['signup']})")
     print(c("└────────────────────────────────────────────────────────────────\n", BOLD))
 
-# ─── Interactief model-menu ───────────────────────────────────────────────────
+# ─── Interactive model-menu ───────────────────────────────────────────────────
 
 def models_menu(agent_cfgs, orch_cfg, mode):
     roles = CHAT_ROLES if mode == "chat" else CODE_ROLES
@@ -596,7 +596,7 @@ def models_menu(agent_cfgs, orch_cfg, mode):
         if choice == "": print(c("Back to chat.\n", GRAY)); break
         if choice not in ("1", "2", "3", "4"): print(c("Invalid choice.\n", RED)); continue
 
-        # Provider kiezen
+        # Chosing a provider
         print()
         print(c("  Choose a provider:", BOLD))
         provider_list = list(PROVIDER_CONFIGS.keys())
@@ -699,7 +699,7 @@ def models_menu(agent_cfgs, orch_cfg, mode):
 
     return agent_cfgs, orch_cfg
 
-# ─── Commando-verwerking ──────────────────────────────────────────────────────
+# ─── Commands ──────────────────────────────────────────────────────
 
 def handle_command(cmd, agent_cfgs, orch_cfg, mode):
     parts = cmd.strip().split()
@@ -768,7 +768,7 @@ def handle_command(cmd, agent_cfgs, orch_cfg, mode):
 
     return agent_cfgs, orch_cfg, mode
 
-# ─── Interactieve modus ───────────────────────────────────────────────────────
+# ─── Interactive modus ───────────────────────────────────────────────────────
 
 def interactive_loop(agent_cfgs, orch_cfg, mode):
     print(header("Multi-Agent Orchestrator  v10"))
