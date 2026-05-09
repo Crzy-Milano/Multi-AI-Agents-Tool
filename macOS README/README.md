@@ -80,6 +80,7 @@ python3 multi_agent-*version you have downloaded*.py
 ### Ollama:
 
 #### ── Llama (Meta) ──────────────────────────────────────
+```bash
 ollama pull llama4                    # Latest Meta multimodal MoE model
 ollama pull llama3.3                  # State of the art 70B
 ollama pull llama3.2                  # 1B and 3B small models
@@ -95,8 +96,10 @@ ollama pull llama2-uncensored         # Uncensored 7B, 70B
 ollama pull llama2-chinese            # Chinese fine-tune 7B, 13B
 ollama pull llama-pro                 # Programming & math specialist
 ollama pull llama-guard3              # Content safety 1B, 8B
+```
 
 #### ── Mistral / Mixtral ────────────────────────────────
+```bash
 ollama pull mistral                   # 7B flagship
 ollama pull mistral-nemo              # 12B with 128K context
 ollama pull mistral-small             # 22B-24B benchmark setter
@@ -116,8 +119,10 @@ ollama pull devstral                  # Agentic coding 24B
 ollama pull devstral-small-2          # Agentic coding vision 24B
 ollama pull devstral-2                # 123B coding agent (cloud)
 ollama pull ministral-3               # Edge deployment 3B, 8B, 14B
+```
 
 #### ── Gemma (Google) ───────────────────────────────────
+```bash
 ollama pull gemma4                    # Frontier vision+tools 26B, 31B
 ollama pull gemma3                    # 270M, 1B, 4B, 12B, 27B
 ollama pull gemma3n                   # On-device e2b, e4b
@@ -131,8 +136,10 @@ ollama pull medgemma                  # Medical vision 4B, 27B
 ollama pull medgemma1.5               # Updated medical 4B
 ollama pull gemini-3-flash-preview    # Gemini 3 Flash (cloud)
 ollama pull functiongemma             # Function calling 270M
+```
 
 #### ── Qwen (Alibaba) ───────────────────────────────────
+```bash
 ollama pull qwen3                     # Latest 0.6B-235B dense+MoE
 ollama pull qwen3.5                   # Multimodal 0.8B-122B
 ollama pull qwen3.6                   # Coding 27B, 35B
@@ -149,8 +156,10 @@ ollama pull qwen2-math                # Math 1.5B-72B
 ollama pull qwen                      # Qwen 1.5 0.5B-110B
 ollama pull qwq                       # Reasoning 32B
 ollama pull codeqwen                  # Code 7B
+```
 
 #### ── DeepSeek ─────────────────────────────────────────
+```bash
 ollama pull deepseek-r1               # Reasoning 1.5B-671B
 ollama pull deepseek-v3               # MoE 671B
 ollama pull deepseek-v3.1             # Hybrid thinking 671B (cloud)
@@ -166,8 +175,10 @@ ollama pull deepseek-ocr              # OCR vision 3B
 ollama pull deepscaler                # Math reasoning 1.5B
 ollama pull deepcoder                 # Open coding 1.5B, 14B
 ollama pull r1-1776                   # DeepSeek-R1 unbiased (Perplexity)
+```
 
 #### ── Phi (Microsoft) ──────────────────────────────────
+```bash
 ollama pull phi4                      # 14B STEM reasoning
 ollama pull phi4-mini                 # 3.8B multilingual+tools
 ollama pull phi4-reasoning            # 14B reasoning
@@ -175,8 +186,10 @@ ollama pull phi4-mini-reasoning       # 3.8B lightweight reasoning
 ollama pull phi3                      # 3.8B, 14B
 ollama pull phi3.5                    # 3.8B lightweight
 ollama pull phi                       # Phi-2 2.7B
+```
 
 #### ── IBM Granite ──────────────────────────────────────
+```bash
 ollama pull granite4                  # 350M-3B tools
 ollama pull granite4.1                # Enterprise 3B-30B tools
 ollama pull granite3.3                # Reasoning 2B, 8B
@@ -189,8 +202,10 @@ ollama pull granite3-moe              # MoE 1B, 3B
 ollama pull granite3-guardian         # Risk detection 2B, 8B
 ollama pull granite-code              # Code 3B-34B
 ollama pull granite-embedding         # Embeddings 30M, 278M
+```
 
 #### ── Cohere ───────────────────────────────────────────
+```bash
 ollama pull command-r                 # Conversational 35B
 ollama pull command-r-plus            # Enterprise 104B
 ollama pull command-r7b               # Fast 7B
@@ -198,22 +213,28 @@ ollama pull command-r7b-arabic        # Arabic 7B
 ollama pull command-a                 # Enterprise 111B
 ollama pull aya                       # Multilingual 23 languages 8B, 35B
 ollama pull aya-expanse               # Multilingual tools 8B, 32B
+```
 
 #### ── NVIDIA Nemotron ──────────────────────────────────
+```bash
 ollama pull nemotron                  # Llama 3.1 fine-tune 70B
 ollama pull nemotron-mini             # Tools roleplay 4B
 ollama pull nemotron3                 # Multimodal video+audio 33B
 ollama pull nemotron-3-super          # MoE 120B (cloud)
 ollama pull nemotron-3-nano           # Agentic 4B, 30B (cloud)
 ollama pull nemotron-cascade-2        # MoE reasoning 30B
+```
 
 #### ── Kimi (Moonshot AI) ───────────────────────────────
+```bash
 ollama pull kimi-k2                   # MoE coding (cloud)
 ollama pull kimi-k2-thinking          # Thinking MoE (cloud)
 ollama pull kimi-k2.5                 # Multimodal agentic (cloud)
 ollama pull kimi-k2.6                 # Coding+vision agentic (cloud)
+```
 
 #### ── GLM (Zhipu AI / Z.ai) ────────────────────────────
+```bash
 ollama pull glm4                      # Multilingual 9B
 ollama pull glm-4.6                   # Reasoning+coding (cloud)
 ollama pull glm-4.7                   # Coding (cloud)
@@ -221,26 +242,34 @@ ollama pull glm-4.7-flash             # Lightweight 30B (cloud)
 ollama pull glm-5                     # Agentic 744B MoE (cloud)
 ollama pull glm-5.1                   # Coding flagship (cloud)
 ollama pull glm-ocr                   # OCR vision
+```
 
 #### ── MiniMax ──────────────────────────────────────────
+```bash
 ollama pull minimax-m2                # Coding+agentic (cloud)
 ollama pull minimax-m2.1              # Multilingual (cloud)
 ollama pull minimax-m2.5              # Productivity+coding (cloud)
 ollama pull minimax-m2.7              # Professional (cloud)
+```
 
 #### ── LG AI Research (EXAONE) ──────────────────────────
+```bash
 ollama pull exaone3.5                 # Bilingual EN+KR 2.4B-32B
 ollama pull exaone-deep               # Reasoning 2.4B-32B
+```
 
 #### ── Vision / Multimodal ──────────────────────────────
+```bash
 ollama pull llava                     # Vision 7B, 13B, 34B
 ollama pull llava-llama3              # LLaVA + Llama 3 8B
 ollama pull llava-phi3                # LLaVA + Phi3 3.8B
 ollama pull bakllava                  # Mistral + LLaVA 7B
 ollama pull moondream                 # Edge vision 1.8B
 ollama pull minicpm-v                 # Vision 8B
+```
 
 #### ── Code Specialists ─────────────────────────────────
+```bash
 ollama pull codellama                 # Meta code 7B-70B
 ollama pull starcoder2                # Code 3B, 7B, 15B
 ollama pull starcoder                 # Code 80+ languages 1B-15B
@@ -253,8 +282,10 @@ ollama pull codegeex4                 # Code 9B
 ollama pull yi-coder                  # Code 1.5B, 9B
 ollama pull opencoder                 # Code EN+ZH 1.5B, 8B
 ollama pull codebooga                 # Merged code 34B
+```
 
 #### ── Embeddings ───────────────────────────────────────
+```bash
 ollama pull nomic-embed-text          # Popular embeddings
 ollama pull nomic-embed-text-v2-moe   # Multilingual MoE embeddings
 ollama pull mxbai-embed-large         # State-of-the-art 335M
@@ -264,8 +295,10 @@ ollama pull snowflake-arctic-embed2   # Multilingual 568M
 ollama pull bge-m3                    # Multi-lingual 567M
 ollama pull bge-large                 # BAAI 335M
 ollama pull paraphrase-multilingual   # Clustering/search 278M
+```
 
 #### ── Reasoning ────────────────────────────────────────
+```bash
 ollama pull cogito                    # Hybrid reasoning 3B-70B
 ollama pull cogito-2.1                # MIT license (cloud)
 ollama pull openthinker               # Open reasoning 7B, 32B
@@ -281,8 +314,10 @@ ollama pull olmo-3                    # Open reasoning 7B, 32B
 ollama pull olmo-3.1                  # Open tools 32B
 ollama pull rnj-1                     # Essential AI code+STEM 8B (cloud)
 ollama pull laguna-xs.2               # Local agentic coding MoE 33B
+```
 
 #### ── Uncensored / Fine-tunes ──────────────────────────
+```bash
 ollama pull dolphin3                  # General purpose 8B
 ollama pull dolphin-llama3            # Uncensored 8B, 70B
 ollama pull dolphin-mixtral           # Uncensored 8x7B, 8x22B
@@ -301,16 +336,20 @@ ollama pull everythinglm              # Uncensored 16K context 13B
 ollama pull megadolphin               # Merged 120B
 ollama pull reflection                # Reflection-tuning 70B
 ollama pull athene-v2                 # Code+math+log 72B
+```
 
 #### ── Multilingual ─────────────────────────────────────
+```bash
 ollama pull sailor2                   # South-East Asia 1B-20B
 ollama pull aya                       # 23 languages 8B, 35B
 ollama pull aya-expanse               # 23 languages tools 8B, 32B
 ollama pull llama2-chinese            # Chinese 7B, 13B
 ollama pull yi                        # Bilingual 6B-34B
 ollama pull internlm2                 # Chinese+EN 1.8B-20B
+```
 
 #### ── Classic / General Chat ───────────────────────────
+```bash
 ollama pull vicuna                    # Chat 7B-33B
 ollama pull orca-mini                 # General 3B-70B
 ollama pull orca2                     # Microsoft reasoning 7B, 13B
@@ -331,8 +370,10 @@ ollama pull olmo2                     # Open 7B, 13B
 ollama pull falcon                    # TII 7B-180B
 ollama pull falcon2                   # TII 11B
 ollama pull falcon3                   # Efficient 1B-10B
+```
 
 #### ── Specialized ──────────────────────────────────────
+```bash
 ollama pull sqlcoder                  # SQL generation 7B, 15B
 ollama pull duckdb-nsql               # Text-to-SQL 7B
 ollama pull meditron                  # Medical Llama 2 7B, 70B
@@ -349,8 +390,10 @@ ollama pull dbrx                      # Databricks 132B
 ollama pull deepseek-ocr              # OCR 3B
 ollama pull glm-ocr                   # Document OCR
 ollama pull codegeex4                 # Code 9B
+```
 
 #### ── Other / Community Highlights ─────────────────────
+```bash
 ollama pull wizardlm2                 # Microsoft 7B, 8x22B
 ollama pull wizardlm                  # General Llama 2
 ollama pull wizard-vicuna             # Chat 13B
@@ -369,6 +412,7 @@ ollama pull stablelm-zephyr           # Lightweight chat 3B
 ollama pull internvl2                 # Vision-language
 ollama pull internvl3                 # Vision-language
 ollama pull pixtral                   # Mistral vision
+```
 
 ----
 
