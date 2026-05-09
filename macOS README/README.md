@@ -27,7 +27,7 @@ python3 -m pip install --upgrade pip
 /Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip
 ```
 
-6. After that you type:
+5. After that you type:
    
 ```bash
 cd Downloads
