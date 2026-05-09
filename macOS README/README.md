@@ -97,7 +97,7 @@ brew install ollama
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- DON'T pull all the models at ones, It may break / Lag your system!
+⚠️ WARNING - DON'T pull all the models at ones, It may break / Lag your system!
 
 #### ── Llama (Meta) ──────────────────────────────────────
 ```bash
