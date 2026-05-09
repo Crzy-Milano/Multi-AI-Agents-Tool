@@ -75,6 +75,39 @@ python3 multi_agent-*version you have downloaded*.py
 
 
 
+## API Keys
+
+- To use the online models (Groq, Gemini, etc.) you need API keys. 
+- The ones below are **free**:
+
+### | Provider | Free | Link |
+
+- **Groq** | ✓ Yes | [console.groq.com](https://console.groq.com)
+- **Gemini** | ✓ Yes | [aistudio.google.com](https://aistudio.google.com)
+- **Mistral** | ✓ Yes | [console.mistral.ai](https://console.mistral.ai)
+- **Together AI** | ✓ Yes | [api.together.ai](https://api.together.ai)
+- **Cohere** | ✓ Yes | [dashboard.cohere.com](https://dashboard.cohere.com)
+- **OpenAI** | ✗ Paid | [platform.openai.com](https://platform.openai.com)
+
+### How to set your API key:
+
+```bash
+export GROQ_API_KEY="*YOUR KEY*"
+```
+
+> 💡 **Tip:** To make it permanent so you don't have to type it every time, add it to your `~/.zshrc`:
+
+```bash
+echo 'export GROQ_API_KEY="gsk_..."' >> ~/.zshrc
+source ~/.zshrc
+```
+
+> ⚠️ You only need **one** key to get started — Groq is recommended since it's free and fast.
+
+
+----
+
+
 ## Download The Models:
 
 ### - Ollama:
