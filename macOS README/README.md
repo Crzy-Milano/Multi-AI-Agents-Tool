@@ -78,6 +78,7 @@ python3 multi_agent-*version you have downloaded*.py
 ## Download The Models:
 
 ### Ollama:
+- DON'T pull all the models at ones, It may break / Lag your system!
 
 #### ── Llama (Meta) ──────────────────────────────────────
 ```bash
