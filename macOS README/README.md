@@ -15,44 +15,50 @@ M.A.A.T lets different AI models, work together, and chat with you, you can give
 ```bash
 pip3 --version
 ```
-3. After that you type:
+3. If that didn't work or you want to update to make sure, type:
+
+```bash
+python3 -m pip install --upgrade pip
+```
+
+4. After that you type:
    
 ```bash
 cd Downloads
 ```
 
-4. Then run the script:
+5. Then run the script:
    
 ```bash
 python3 multi_agent-*version you have*.py
 ```
 
-5. If it doesn't work try: (!type the commands below 1 by 1!)
+6. If it doesn't work try: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
 ls
 ```
 
-6. 
+7. 
 
 Do you see the "multi_agent-*version you have*.py
 then there is a problem with the Terminal, if you don't see the file then it isn't downloaded, download it by going to "https://github.com/M-lanGH/Multi-AI-Agent-Tool"
 
-7. After you downloaded the file try it again by typing: (!type the commands below 1 by 1!)
+8. After you downloaded the file try it again by typing: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
 ls
 ```
 
-8. If you see it there, then type in:
+9. If you see it there, then type in:
 
 ```bash
 python3 multi_agent-*version you have downloaded*.py
 ```
 
-9. Now it should work.
+10. Now it should work.
 
 ## Requirements
 
