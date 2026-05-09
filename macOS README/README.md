@@ -469,6 +469,19 @@ ollama pull pixtral                   # Mistral vision
 
 ----
 
+
+### - OpenAI:
+
+> ⚠️ OpenAI is **not free** — you need a paid account at [platform.openai.com](https://platform.openai.com)
+
+1. Here you enter your API key you got from the site:
+```bash
+export OPENAI_API_KEY="sk-..."
+```
+
+----
+
+
 ## Requirements
 
 - macOS 12+ (Monterey)
