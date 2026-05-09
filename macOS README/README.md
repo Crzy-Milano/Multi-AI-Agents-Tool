@@ -78,6 +78,25 @@ python3 multi_agent-*version you have downloaded*.py
 ## Download The Models:
 
 ### Ollama:
+
+12. If you don't have Ollama type this:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+13. Or via HomeBrew:
+
+```bash
+brew install ollama
+```
+
+14. If you don't have HomeBrew type this:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 - DON'T pull all the models at ones, It may break / Lag your system!
 
 #### ── Llama (Meta) ──────────────────────────────────────
