@@ -53,3 +53,10 @@ python3 multi_agent-*version you have downloaded*.py
 ```
 
 9. Now it should work.
+
+## Requirements
+
+- macOS 20+
+- Bash 3.2+
+
+---
