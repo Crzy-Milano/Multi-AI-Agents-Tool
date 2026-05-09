@@ -89,7 +89,7 @@ python3 multi_agent-*version you have downloaded*.py
 - **Cohere** | ✓ Yes | [dashboard.cohere.com](https://dashboard.cohere.com)
 - **OpenAI** | ✗ Paid | [platform.openai.com](https://platform.openai.com)
 
-### How to set your API key:
+1. How to set your API key:
 
 ```bash
 export GROQ_API_KEY="*YOUR KEY*"
@@ -112,19 +112,19 @@ source ~/.zshrc
 
 ### - Ollama:
 
-12. If you don't have Ollama type this:
+1. If you don't have Ollama type this:
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-13. Or via HomeBrew:
+2. Or via HomeBrew:
 
 ```bash
 brew install ollama
 ```
 
-14. If you don't have HomeBrew type this:
+3. If you don't have HomeBrew type this:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
