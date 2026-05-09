@@ -27,7 +27,7 @@ cd Downloads
 python3 multi_agent-*version you have*.py
 ```
 
-5. If it doesn't work try:
+5. If it doesn't work try: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
@@ -39,7 +39,7 @@ ls
 Do you see the "multi_agent-*version you have*.py
 then there is a problem with the Terminal, if you don't see the file then it isn't downloaded, download it by going to "https://github.com/M-lanGH/Multi-AI-Agent-Tool"
 
-7. After you downloaded the file try it again by typing:
+7. After you downloaded the file try it again by typing: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
