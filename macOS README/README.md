@@ -1,7 +1,7 @@
 # Multi AI Agents Tool 🧠
 ###### !This is the macOS guide!
 
-> A powerfull tool for macOS — inspired by Pyx.Inc (https://github.com/Pyx.Inc)
+> A powerful tool for macOS — inspired by Pyx.Inc (https://github.com/Pyx.Inc)
 
 M.A.A.T lets different AI models, work together, and chat with you, you can give them tasks and they will do it for you!
 
@@ -96,7 +96,7 @@ brew install ollama
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-⚠️ WARNING - DON'T pull all the models at ones, It may break / Lag your system!
+⚠️ WARNING - DON'T pull all the models at once, It may break / Lag your system!
 
 #### ── Llama (Meta) ──────────────────────────────────────
 ```bash
