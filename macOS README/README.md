@@ -77,7 +77,7 @@ python3 multi_agent-*version you have downloaded*.py
 
 ## Download The Models:
 
-### Ollama:
+### - Ollama:
 
 12. If you don't have Ollama type this:
 
