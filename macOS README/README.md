@@ -21,44 +21,50 @@ pip3 --version
 python3 -m pip install --upgrade pip
 ```
 
-4. After that you type:
+4. If it gives you a warning about a newer version just copy and paste what it gives you, Example:
+
+```bash
+/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip
+```
+
+6. After that you type:
    
 ```bash
 cd Downloads
 ```
 
-5. Then run the script:
+6. Then run the script:
    
 ```bash
 python3 multi_agent-*version you have*.py
 ```
 
-6. If it doesn't work try: (!type the commands below 1 by 1!)
+7. If it doesn't work try: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
 ls
 ```
 
-7. 
+8. 
 
 Do you see the "multi_agent-*version you have*.py
 then there is a problem with the Terminal, if you don't see the file then it isn't downloaded, download it by going to "https://github.com/M-lanGH/Multi-AI-Agent-Tool"
 
-8. After you downloaded the file try it again by typing: (!type the commands below 1 by 1!)
+9. After you downloaded the file try it again by typing: (!type the commands below 1 by 1!)
 
 ```bash
 cd Downloads
 ls
 ```
 
-9. If you see it there, then type in:
+10. If you see it there, then type in:
 
 ```bash
 python3 multi_agent-*version you have downloaded*.py
 ```
 
-10. Now it should work.
+11. Now it should work.
 
 ## Requirements
 
