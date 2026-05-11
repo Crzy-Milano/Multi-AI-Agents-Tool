@@ -1,7 +1,7 @@
 # Multi AI Agents Tool 🧠
 ###### !This is the macOS guide!
 
-> A powerful tool for macOS — inspired by Pyx.Inc (https://github.com/PyxInc)
+> A powerful tool for macOS — inspired by PyxInc (https://github.com/PyxInc)
 
 M.A.A.T lets different AI models, work together, and chat with you, you can give them tasks and they will do it for you!
 
