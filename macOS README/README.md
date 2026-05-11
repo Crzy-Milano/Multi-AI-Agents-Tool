@@ -10,7 +10,7 @@ M.A.A.T lets different AI models, work together, and chat with you, you can give
 ## Installation
 
 1. Download the latest release from "[https://github.com/M-lanGH/Multi-AI-Agents-Tool](https://github.com/M-lanGH/Multi-AI-Agents-Tool)"
-2. Open Terminal and check which version:
+2. Open the Terminal and check which version:
 
 ```bash
 pip3 --version
